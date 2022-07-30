@@ -2,7 +2,7 @@ another of those super complex problems, that has a very simple solution...
 makes you wonder: ¿how could i Not see that?
 
 Problem:
-when you use / plug a very large HDD to USB3.0 on Linux.
+when you use / plug a Very Large HDD to USB3.0 on Linux.
 most of the times the HDD is Not detected.
 
 IF the USB3.0 enclosure has a external powersupply,
