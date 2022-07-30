@@ -1,7 +1,5 @@
-# -SOLVED-Very-Large-HDD-on-Linux-USB3.0-mass-storage-Problem
-
-another of those super complex problems, that has a very simple sollution...
-makes you wonder: ¿how could i Not see that coming?
+another of those super complex problems, that has a very simple solution...
+makes you wonder: ¿how could i Not see that?
 
 Problem:
 when you use / plug a very large HDD to USB3.0 on Linux.
