@@ -10,11 +10,11 @@ can be turned-On, after being plugged or continue to be On un-plugged from USB.
 
 usually external enclosures with ASMedia USB SATA controller.
 
-Manual Sollution:
+Manual Solution:
 unplug the usb cable with HDD turned-on, and plug again to PC.
 that will detect the Very Large USB HDD.
 
-Permanent solution:
+Automatic Permanent solution:
 
 create a file like this, here:
 
