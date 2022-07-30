@@ -23,9 +23,13 @@ create a file like this, here:
 /etc/modprobe.d/usb-storage.conf
 
 options usb-storage delay_use=15
+
 # install usb-storage /bin/true 
+
 # options usb-storage option_zero_cd
+
 # options usb-storage quirks
+
 # options usb-storage swi_tru_install
 
 -----
