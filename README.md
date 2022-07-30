@@ -14,7 +14,7 @@ Manual Solution:
 unplug the usb cable with HDD turned-on, and plug again to PC.
 that will detect the Very Large USB HDD.
 
-Automatic Permanent solution:
+Proper Automatic Permanent solution:
 
 create a file like this, here:
 
