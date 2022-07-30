@@ -16,7 +16,7 @@ that will detect the Very Large USB HDD.
 
 Proper Automatic Permanent solution:
 
-create a file like this, here:
+create a file like this:
 
 -----
 
