@@ -33,6 +33,7 @@ options usb-storage delay_use=15
 P.D. 10 seconds can work, but... its on the edge.
 
 -----
-if you want to read some of the long conversations about this, and how the solluton was found:
+if you want to read some of the long conversations about this, and how the soluton was found:
+
 https://bugzilla.kernel.org/show_bug.cgi?id=216282
 
