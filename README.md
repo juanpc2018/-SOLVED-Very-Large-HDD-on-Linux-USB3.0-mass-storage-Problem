@@ -22,15 +22,11 @@ create a file like this, here:
 
 /etc/modprobe.d/usb-storage.conf
 
-options usb-storage delay_use=15
-
-# install usb-storage /bin/true 
-
-# options usb-storage option_zero_cd
-
-# options usb-storage quirks
-
-# options usb-storage swi_tru_install
+1. options usb-storage delay_use=15
+2. # install usb-storage /bin/true 
+3. # options usb-storage option_zero_cd
+4. # options usb-storage quirks
+5. # options usb-storage swi_tru_install
 
 -----
 
