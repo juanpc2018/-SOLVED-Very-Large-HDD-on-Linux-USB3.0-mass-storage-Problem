@@ -30,8 +30,8 @@ options usb-storage delay_use=15
 ```
 -----
 
-P.D. 10 seconds can work for 18TB hdds, but... its on the edge.
-20TB would require more,
+P.D. 10 seconds can work for 18TB hdd, but... its on the edge.
+20TB could require more,
 and brand to brand differences.
 
 -----
