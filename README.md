@@ -30,10 +30,12 @@ options usb-storage delay_use=15
 ```
 -----
 
-P.D. 10 seconds can work, but... its on the edge.
+P.D. 10 seconds can work for 18TB hdds, but... its on the edge.
+20TB would require more,
+and brand to brand differences.
 
 -----
-if you want to read some of the long conversations, and how the soluton was found:
+if want to read some of the long conversations, and how the soluton was found:
 
 https://bugzilla.kernel.org/show_bug.cgi?id=216282
 
