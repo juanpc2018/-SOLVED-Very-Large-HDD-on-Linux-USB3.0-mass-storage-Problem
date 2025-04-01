@@ -78,10 +78,17 @@ $ sudo hdparm -i /dev/sdd </br>
 /dev/sdd:
  HDIO_GET_IDENTITY failed: Invalid argument
 ```
+mount point also FAIL </br>
+$ sudo hdparm -i /media/jpc/XFS-18TB-2 </br>
+```
+/media/user/XFS-18TB:
+ HDIO_DRIVE_CMD(identify) failed: Inappropriate ioctl for device
+ HDIO_GET_IDENTITY failed: Inappropriate ioctl for device
+```
 
 --------------------
 
-if want to read some of the long conversations, and how the soluton was found: </br>
+if want to read the long conversations, how soluton was found: </br>
 
 https://bugzilla.kernel.org/show_bug.cgi?id=216282 </br>
 
