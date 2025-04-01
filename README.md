@@ -38,11 +38,11 @@ etc... </br>
 -----
 
 Recomended: </br>
-Disable Write-cache </br>
+Disable Write-Cache </br>
 why? </br>
 because if there is a Crash, or power loss without UPS, </br>
 its easy to recover files, or continue downloading. </br>
-File system Journal & Write Cache contradict / collide to each other. </br>
+File system Journal & Write Cache contradict / collide each other. </br>
 
 Bigger cache requires more aggresive Journal, higher priority. </br>
 No write-cache makes Journal work better. </br>
