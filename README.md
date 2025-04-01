@@ -42,6 +42,10 @@ Disable Write-cache </br>
 why? </br>
 because if there is a Crash, or power loss without UPS, </br>
 its easy to recover files, or continue downloading. </br>
+File system Journal & Write Cache contradict / collide to each other. </br>
+
+Bigger cache requires more aggresive Journal, higher priority. </br>
+No write-cache makes Journal work better. </br>
 
 /etc/hdparm.conf </br>
 ```
@@ -49,8 +53,8 @@ its easy to recover files, or continue downloading. </br>
 write_cache = off
 ```
 
-verify internal drives connected directly to sata:
-$ sudo hdparm -i /dev/sdb
+verify internal drives connected directly to sata: </br>
+$ sudo hdparm -i /dev/sdb </br>
 ```
 /dev/sdb:
 
@@ -68,8 +72,8 @@ $ sudo hdparm -i /dev/sdb
 
  * signifies the current active mode
 ```
-USB3.0 drive FAIL
-$ sudo hdparm -i /dev/sdd
+USB3.0 drive FAIL </br>
+$ sudo hdparm -i /dev/sdd </br>
 ```
 /dev/sdd:
  HDIO_GET_IDENTITY failed: Invalid argument
