@@ -49,6 +49,33 @@ its easy to recover files, or continue downloading. </br>
 write_cache = off
 ```
 
+verify internal drives connected directly to sata:
+$ sudo hdparm -i /dev/sdb
+```
+/dev/sdb:
+
+ Model=                , FwRev=    , SerialNo=          
+ Config={ Fixed }
+ RawCHS=16383/16/63, TrkSize=0, SectSize=0, ECCbytes=0
+ BuffType=unknown, BuffSize=unknown, MaxMultSect=1, MultSect=1
+ CurCHS=16383/16/63, CurSects=16514064, LBA=yes, LBAsects=500118192
+ IORDY=on/off, tPIO={min:120,w/IORDY:120}, tDMA={min:120,rec:120}
+ PIO modes:  pio0 pio1 pio2 pio3 pio4 
+ DMA modes:  mdma0 mdma1 mdma2 
+ UDMA modes: udma0 udma1 udma2 udma3 udma4 udma5 *udma6 
+ AdvancedPM=no WriteCache=disabled
+ Drive conforms to: unknown:  ATA/ATAPI-2,3,4,5,6,7
+
+ * signifies the current active mode
+```
+USB3.0 drive FAIL
+$ sudo hdparm -i /dev/sdd
+```
+/dev/sdd:
+ HDIO_GET_IDENTITY failed: Invalid argument
+```
+
+--------------------
 
 if want to read some of the long conversations, and how the soluton was found: </br>
 
